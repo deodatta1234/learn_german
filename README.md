@@ -37,7 +37,7 @@
   | Vector DB hosting | Hetzner CX23, Nuremberg, Germany |
 
   ## Project Structure
-
+  ```
   telc-app/
   ├── backend/
   │   ├── main.py                      # FastAPI app, all routes
@@ -94,3 +94,4 @@
   │   └── audio/                       # Speaking recordings (gitignored)
   ├── docker-compose.yml
   └── .env.example
+  ```
